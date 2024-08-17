@@ -1,0 +1,168 @@
+/* Apply the Libre Baskerville font family */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 80px; /* Adjust this value based on the header height */
+}
+
+/* Make key words bold */
+strong {
+    font-weight: 700;
+}
+
+/* Shadow and Border for Sections */
+section {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+/* 3D Button Effect */
+button, a.bg-black {
+    background-color: #1a202c;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover, a.bg-black:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Animation for Section Entry */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+section {
+    animation: fadeIn 1s ease-out forwards;
+}
+
+/* Additional Styling for Headers */
+h2, h3, h4 {
+    font-weight: 700;
+    color: #2d3748; /* Darker shade for headers */
+    margin-bottom: 1rem;
+}
+
+/* Animations for Images */
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Custom Styling */
+footer {
+    background-color: #f7fafc;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer a {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+footer a:hover {
+    background-color: #2d3748;
+    transform: scale(1.1);
+}
+
+#carousel {
+    max-width: 1000px; /* Limit the maximum width for very large screens */
+    height: 800px; /* Set a fixed height for the carousel */
+}
+
+#slides img {
+    height: 100%; /* Ensure images fill the height of the carousel */
+    object-fit: cover; /* Maintain aspect ratio and cover the carousel area */
+}
+
+/* Base styles for the carousel buttons */
+.carousel-button {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white; /* White text */
+    border: none; /* Remove default button border */
+    padding: 0.75rem 1.5rem; /* Add some padding */
+    border-radius: 50%; /* Make the button circular */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition effects */
+    font-size: 1.5rem; /* Larger font size for the arrows */
+}
+
+/* Hover effect for the carousel buttons */
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darken background on hover */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+/* Positioning for carousel buttons */
+.carousel-button.absolute {
+    top: 50%; /* Center vertically */
+}
+
+/* Specific styling for left button */
+#prevButton {
+    left: 1rem; /* Position it a bit from the left */
+}
+
+/* Specific styling for right button */
+#nextButton {
+    right: 1rem; /* Position it a bit from the right */
+}
+
+/* Base styles for the buttons */
+.button-style {
+    background-color: #1a202c; /* Dark background */
+    color: white; /* White text */
+    padding: 0.75rem 1.5rem; /* Padding for the button */
+    border-radius: 0.375rem; /* Slightly rounded corners */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for a 3D effect */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for buttons */
+.button-style:hover {
+    transform: translateY(-3px); /* Slightly lift the button */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    background-color: #2E67F8; /* Slightly lighter shade of blue for hover effect */
+}
+
+/* Facebook Icon Color */
+.text-facebook {
+    color: #1877F2; /* Facebook blue */
+}
+
+/* LinkedIn Icon Color */
+.text-linkedin {
+    color: #0077B5; /* LinkedIn blue */
+}
+
+/* Phone Number Color (same as button) */
+.text-button-color {
+    color: #2E67F8; /* Button color */
+}
+
+/* Fading Header Style */
+#fading-header {
+    background-color: #1A202C; /* Dark background color */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 1;
+}

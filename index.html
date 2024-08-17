@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better Windows Inc</title>
+    
+    <!-- Meta Description -->
+    <meta name="description" content="Better Windows Inc provides professional window and doorwall installation services in Dearborn, Michigan, ensuring a perfect fit every time.">
+    
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="windows, doorwalls, window installation, home improvement, Dearborn Michigan, energy efficiency, Better Windows Inc">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Better Windows Inc - Professional Window & Doorwall Installation">
+    <meta property="og:description" content="Expert window and doorwall installation services in Dearborn, Michigan. Over 25 years of experience ensuring quality craftsmanship.">
+    <meta property="og:image" content="https://www.betterwindows.org/images/BetterWindowsLogo.jpg">
+    <meta property="og:url" content="https://www.betterwindows.org/">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/BetterWindowsLogo.jpg" type="image/jpg">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+    <!-- Including Tailwind CSS for styling and Font Awesome for icons -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Including Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link to the custom CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body class="bg-gray-50 font-libre-baskerville">
+
+<!-- Fading Header Section -->
+<div id="fading-header" class="fixed w-full top-0 left-0 z-50 bg-blue-800">
+    <header class="flex flex-col sm:flex-row justify-between items-center p-4 shadow-md text-white">
+        <div class="text-lg font-semibold text-center sm:text-left">Better Windows Inc.</div>
+        <div class="flex space-x-4 mt-2 sm:mt-0 justify-center sm:justify-end">
+            <!-- Facebook Icon -->
+            <a href="https://www.facebook.com/profile.php?id=100074747900019" class="text-facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+            <!-- LinkedIn Icon -->
+            <a href="https://www.linkedin.com/in/brian-warner-476998322/" class="text-linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <!-- Phone Number -->
+            <a href="tel:734-612-5162" class="text-white flex items-center space-x-1">
+                <i class="fas fa-phone"></i>
+                <span>734-612-5162</span>
+            </a>
+        </div>
+    </header>
+</div>
+
+
+
+<!-- Hero Section -->
+<section class="flex flex-col md:flex-row bg-gray-100 p-8">
+    <div class="md:w-1/2">
+        <!-- Replace the placeholder image with your actual image -->
+        <img src="images/BetterWindowsSale.webp" alt="Summer Sale banner with windows in a bright room" class="w-3/5 h-auto">
+    </div>
+    <div class="md:w-1/2 flex flex-col justify-center text-center md:text-center p-8">
+        <h2 class="text-4xl font-bold">It's just a better window!</h2>
+        <p class="mt-4 text-gray-700">Professional window & doorwall installation services for your home!</p>
+        <div class="mt-6 space-y-4 md:space-y-0 md:space-x-4">
+            <a href="#contact-us" class="button-style block md:inline-block">CONTACT US TODAY</a>
+            <a href="founder.html" class="button-style block md:inline-block">LEARN MORE</a>
+            <a href="gallery-services.html" class="button-style block md:inline-block">GALLERY & SERVICES</a>
+        </div>
+    </div>
+</section>
+
+    <!-- Main Content Section -->
+    <section class="bg-white p-8">
+        <h3 class="text-2xl font-bold text-center">Your Trusted Partner for Quality Windows and Doorwalls</h3>
+        <p class="mt-4 text-gray-700 text-center">Better Windows Inc specializes in providing top-quality windows and doorwalls, along with professional installation services that ensure a perfect fit every time. Serving Dearborn, Michigan, and the surrounding areas, we handle every step of the process with care and attention to detail, and with over 25 years of experience you can best believe it's just that; "A Better Window"</p>
+    </section>
+
+<!-- Image Gallery Section -->
+<section class="bg-gray-100 p-8">
+    <h3 class="text-2xl font-bold text-center">Transform Your Home's Energy Efficiency</h3>
+    <p class="mt-4 text-gray-700 text-center">With Better Windows Inc High-Quality Window Installations</p>
+    <div class="mt-8 flex flex-col items-center relative">
+        <button id="prevButton" class="carousel-button absolute left-0 transform -translate-y-4/5">
+            &#9664;
+        </button>
+        <div id="carousel" class="w-full md:w-3/4 h-96 overflow-hidden relative">
+            <div id="slides" class="flex transition-transform duration-300 ease-in-out">
+                <img src="images/MenAtWork1.jpg" alt="Image of window installation" class="w-full h-full object-cover">
+                <img src="images/FinishedJob1.jpg" alt="Image of home with new windows" class="w-full h-full object-cover">
+                <img src="images/TeamAtWork1.jpg" alt="Image of installation team at work" class="w-full h-full object-cover">
+            </div>
+        </div>
+        <button id="nextButton" class="carousel-button absolute right-0 transform -translate-y-4/5">
+            &#9654;
+        </button>
+    </div>
+</section>
+
+
+
+<!-- Online Appointments Section -->
+<section class="bg-gray-200 p-8">
+    <h3 class="text-2xl font-bold text-center">Online Appointments</h3>
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 shadow-lg">
+            <h4 class="text-xl font-semibold">Quotes & Estimates</h4>
+            <p class="mt-2 text-gray-700">1 hr | Free</p>
+            <a href="#contact-us" class="button-style block mt-4 text-center">BOOK TODAY DOWN BELOW!</a>
+        </div>
+        <div class="bg-white p-6 shadow-lg">
+            <h4 class="text-xl font-semibold">Windows & Doorwalls</h4>
+            <p class="mt-2 text-gray-700">4 hrs | Price Varies</p>
+            <a href="#contact-us" class="button-style block mt-4 text-center">BOOK TODAY DOWN BELOW!</a>
+        </div>
+        <div class="bg-white p-6 shadow-lg">
+            <h4 class="text-xl font-semibold">Roofing & Trim</h4>
+            <p class="mt-2 text-gray-700">4 hrs | Price Varies</p>
+            <a href="#contact-us" class="button-style block mt-4 text-center">BOOK TODAY DOWN BELOW!</a>
+        </div>
+    </div>
+</section>
+
+    <!-- Customer Reviews Section -->
+    <section class="bg-white p-8">
+        <h3 class="text-2xl font-bold text-center">Facebook & Customer Reviews!</h3>
+        <p class="mt-4 text-center">Better Windows <strong>100% recommend</strong> based on the opinion of 4 people</p>
+        <div class="mt-8 flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-8">
+            <div class="bg-white p-6 shadow-lg">
+                <div class="flex items-center space-x-4">
+                    <img src="images/FacebookLogo.png" alt="Customer profile picture" class="rounded-full">
+                    <div>
+                        <p class="font-semibold">Morgan Higgins</p>
+                        <p class="text-sm text-gray-600">8/13/2024</p>
+                    </div>
+                </div>
+                <p class="mt-4 text-gray-700">"Better windows is the place to go. They have a great fr..."</p>
+                <a href="https://www.facebook.com/profile.php?id=100074747900019&sk=reviews" class="text-blue-500 text-sm mt-2 block" target="_blank">Read full review <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="bg-white p-6 shadow-lg">
+                <div class="flex items-center space-x-4">
+                    <img src="images/FacebookLogo.png" alt="Customer profile picture" class="rounded-full">
+                    <div>
+                        <p class="font-semibold">Devin Kelly</p>
+                        <p class="text-sm text-gray-600">8/13/2024</p>
+                    </div>
+                </div>
+                <p class="mt-4 text-gray-700">"Can honestly say their team is like family, they tr..."</p>
+                <a href="https://www.facebook.com/profile.php?id=100074747900019&sk=reviews" class="text-blue-500 text-sm mt-2 block" target="_blank">Read full review <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="bg-white p-6 shadow-lg">
+                <div class="flex items-center space-x-4">
+                    <img src="images/FacebookLogo.png" alt="Customer profile picture" class="rounded-full">
+                    <div>
+                        <p class="font-semibold">Rene' Proffitt</p>
+                        <p class="text-sm text-gray-600">1/25/2024</p>
+                    </div>
+                </div>
+                <p class="mt-4 text-gray-700">"These guys are by far the hardest workers, they do..."</p>
+                <a href="https://www.facebook.com/profile.php?id=100074747900019&sk=reviews" class="text-blue-500 text-sm mt-2 block" target="_blank">Read full review <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact Us Section -->
+<section id="contact-us" class="bg-gray-100 p-8">
+    <h3 class="text-2xl font-bold text-center">Contact Us</h3>
+    <p class="mt-4 text-center text-gray-700">Better yet, see us in person!</p>
+    <p class="mt-2 text-center text-gray-700">We stay in constant communication with our customers until the job is done. To get a free quote, or if you have questions or special requests, just drop us a line or email us with your questions and you're sure to get a quick response!</p>
+    <div class="mt-8 text-center">
+        <p class="font-semibold">Better Windows Inc</p>
+        <p>Serving The Michigan Area</p>
+        <a href="tel:734-612-5162" class="text-button-color flex items-center justify-center space-x-1">
+            <i class="fas fa-phone"></i>
+            <span>734-612-5162</span>
+        </a>
+        <p>Email: justabetterwindow@gmail.com</p>
+        <p id="hours"></p>
+        <p>Closed Holidays</p>
+        <a href="mailto:justabetterwindow@gmail.com?subject=Request%20for%20a%20Free%20Quote&body=Please%20provide%20your%20Name,%20Phone%20Number,%20and%20Preferred%20Hours%20to%20Call%20below:%0A%0AName:%0APhone%20Number:%0APreferred%20Hours%20to%20Call:" class="button-style inline-block mt-4">GET A FREE QUOTE!</a>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-white p-4 text-center text-gray-600">
+    <p>COPYRIGHT © 2024 BETTER WINDOWS INC - ALL RIGHTS RESERVED.</p>
+    <div class="mt-4">
+        <p>Produced by Devin Kelly</p>
+        <a href="https://www.linkedin.com/in/devin-kelly-08465b2b4/" target="_blank" class="button-style mt-2 inline-block">Connect on LinkedIn</a>
+    </div>
+</footer>
+
+
+    <!-- Link to the custom JavaScript file -->
+    <script src="scripts.js"></script>
+</body>
+</html>
